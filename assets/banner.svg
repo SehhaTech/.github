@@ -1,0 +1,40 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>SehhaTech — Innovating Healthcare. Empowering Lives.</title>
+  <desc>Banner for the SehhaTech multi-tenant clinic management platform, featuring a vital-sign waveform motif.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0A332B"/>
+      <stop offset="1" stop-color="#12574A"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FF7A59" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#FF7A59" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#BFE7DB" opacity="0.10"/>
+    </pattern>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="300" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1200" height="300" fill="url(#grid)"/>
+
+  <!-- eyebrow -->
+  <text x="64" y="72" font-family="Consolas, 'SF Mono', Menlo, monospace" font-size="14" letter-spacing="3.5" fill="#9AD4C4">CLINIC MANAGEMENT PLATFORM</text>
+  <rect x="64" y="86" width="46" height="2" fill="#FF7A59"/>
+
+  <!-- wordmark -->
+  <text x="60" y="182" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="72" font-weight="700" fill="#F5FBF9">SehhaTech</text>
+
+  <!-- tagline -->
+  <text x="64" y="222" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="21" font-weight="400" fill="#BFE7DB">Innovating healthcare. Empowering lives.</text>
+
+  <!-- vital sign waveform, right side -->
+  <circle cx="815" cy="58" r="34" fill="url(#glow)"/>
+  <path d="M 640 160 L 735 160 L 752 146 L 768 174 L 785 160 L 800 160 L 815 58 L 830 232 L 845 160 L 862 160 L 878 150 L 895 160 L 1136 160"
+        fill="none" stroke="#FF7A59" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="815" cy="58" r="5.5" fill="#FF7A59"/>
+
+  <!-- baseline rule -->
+  <rect x="64" y="256" width="1072" height="1" fill="#2E7767"/>
+  <text x="64" y="280" font-family="Consolas, 'SF Mono', Menlo, monospace" font-size="12.5" letter-spacing="1" fill="#6FA79A">MULTI-TENANT · SECURE · BUILT FOR SCALE</text>
+</svg>
