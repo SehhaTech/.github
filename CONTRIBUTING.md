@@ -89,7 +89,7 @@ docs: update README with deployment steps
 - JWT signing secrets
 - `.env` files with real values
 
-Always use `.gitignore` to exclude local config files, and use GitHub Secrets / environment variables for CI/CD and deployment (Railway, Render, Vercel). If you accidentally commit a secret, notify the team immediately — see [SECURITY.md](./SECURITY.md).
+Always use `.gitignore` to exclude local config files, and use GitHub Secrets / environment variables for CI/CD and deployment (MonsterASP.net, Vercel). If you accidentally commit a secret, notify the team immediately — see [SECURITY.md](./SECURITY.md).
 
 ## Multi-Tenant Considerations
 
