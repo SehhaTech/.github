@@ -11,9 +11,8 @@ This project follows our [Code of Conduct](./CODE_OF_CONDUCT.md). By participati
 | Layer | Technology |
 |---|---|
 | Backend API | ASP.NET Core (.NET) |
-| Database | PostgreSQL |
+| Database | MySQL |
 | Frontend | React |
-| Mobile | Flutter |
 | Auth | JWT (separate configuration for staff API vs. Patient Portal) |
 
 ## Getting Started
@@ -22,7 +21,7 @@ This project follows our [Code of Conduct](./CODE_OF_CONDUCT.md). By participati
 
 - [.NET SDK](https://dotnet.microsoft.com/download) (latest LTS)
 - [Node.js](https://nodejs.org/) (LTS) + npm
-- PostgreSQL (local instance or Docker)
+- MySQL (local instance or Docker)
 - Git
 
 ### Backend Setup (ASP.NET Core)
@@ -42,7 +41,7 @@ dotnet ef database update
 dotnet run
 ```
 
-Make sure you have a local `appsettings.Development.json` (never commit real secrets — see [Secrets & Environment Variables](#secrets--environment-variables) below) with your local PostgreSQL connection string and JWT configuration.
+Make sure you have a local `appsettings.Development.json` (never commit real secrets — see [Secrets & Environment Variables](#secrets--environment-variables) below) with your local MySQL connection string and JWT configuration.
 
 ### Frontend Setup (React)
 
